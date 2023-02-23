@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin:0;
+}
+
+body{
+    background-color: #181818;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    color: white;
+}
+
+section{
+    width:500px ;
+    min-width: 30%;
+    background-color: #1e1e1e;
+    box-shadow: 7px 7px 13px 7px rgba(80, 80, 80, 0.5);;
+    border-radius: 6px;
+    padding: 2rem;
+    overflow: auto;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 500px;
+    margin-left: 20px;
+    padding-top: 20px;
+}
+
+
+input{
+    margin-bottom: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.315);
+    border-radius: .30rem;
+    padding: 8px 5px;
+    outline: none;
+    width: 100%;
+    box-sizing: border-box;
+    transition: 0.5s;
+    border: 2px solid white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+input:focus{
+    border-color: indigo;
+}
+
+label{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+select{
+    font-size: 20px;
+    width: 30%;
+    box-sizing: border-box;
+    height: 30px;
+    margin-bottom: 15px;
+    outline: none;
+}
+
+textarea{
+    width: 100%;
+    height: 300px;
+    margin-bottom: 20px;
+    padding: 8px 5px;
+    outline: none;
+    transition: 0.5s;
+    box-sizing: border-box;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+textarea:focus{
+    border-color: indigo;
+}
+
+button{
+    width: 30%;
+    height: 15%;
+    border: none;
+    border-radius: .30rem;
+    background-color: white(54, 80, 194, 0.829);
+    color: #181818;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+
+
+button:hover{
+    transition: .5s;
+    opacity: 0.8;
+    cursor: pointer;
+
+}
+
+.check_class{
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.class_check{
+    display: flex;
+    width: 400px;
+    height: 100px;
+    align-items: center;
+
+}
+
+.class_check label{
+    margin-bottom: 22px;
+
+}
+
+.drop{
+    border-radius: 5px;
+}

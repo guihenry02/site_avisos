@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin:0;
+}
+
+body{
+    background-image: url(https://lidermagazine.sapo.pt/wp-content/uploads/tecnologicas.jpg);
+    background-size: cover;
+}
+
+section{
+    width:600px ;
+    height: 100vh;
+    background-image: linear-gradient(to right, #fff 70%, #ffffff8c , #ffffff00);
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 700px;
+    margin-left: 20px;
+    padding-top: 40px;
+}
+
+h3{
+    margin-top: 10px;
+    margin-bottom: 2px;
+}
+
+input{
+    width: 350PX;
+    height: 45px;
+    margin-bottom: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.315);
+    border-radius: .30rem;
+}
+
+label{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+select{
+    font-size: 20px;
+    width: 200px;
+    height: 30px;
+    margin-bottom: 15px;
+}
+
+textarea{
+    width: auto;
+    height: 300px;
+    margin-bottom: 20px;
+    border: 1px solid rgba(128, 128, 128, 0.5);
+}
+
+button{
+    width: 100px;
+    height: 75px;
+    border: none;
+    border-radius: .30rem;
+    background-color: rgba(54, 80, 194, 0.829);
+    color: white;
+}
+
+button:hover{
+    transition: .5s;
+    opacity: 0.8;
+    cursor: pointer;
+
+}
+
+.check_class{
+    background-color: blue;
+    width: 40px;
+    height: 50px;
+}
+
